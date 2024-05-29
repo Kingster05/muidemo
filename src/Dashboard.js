@@ -1,3 +1,4 @@
+
 import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -17,7 +18,7 @@ const Login = () => {
               Wellmeadows Hospital
             </Typography>
             <Button color="inherit" component={Link} to="/signup">Sign Up</Button>
-            <Button color="inherit" component={Link} to="/login">Log In</Button> 
+            <Button color="inherit" component={Link} to="/login">Log In</Button> {/* Modified */}
           </Toolbar>
         </AppBar>
       </Box>
